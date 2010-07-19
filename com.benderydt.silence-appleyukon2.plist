@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.benderydt.silence-appleyukon2</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>#sbin#/bdr-silence-appleyukon2.sh</string>
+	</array>
+	<key>UserName</key>
+	<string>nobody</string>
+	<key>GroupName</key>
+	<string>nobody</string>
+	<key>KeepAlive</key>
+	<dict>
+		<key>NetworkState</key>
+		<true/>
+		<key>SuccessfulExit</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
