@@ -1,0 +1,3 @@
+.gitignore  export-ignore
+.gitattributes  export-ignore
+git-release.sh  export-ignore
