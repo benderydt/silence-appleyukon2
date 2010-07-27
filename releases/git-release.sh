@@ -13,5 +13,5 @@ then
 	echo "Tag '$TAG' doesn't exist" >&2
 	exit 2
 fi
-git archive --prefix="silence-yukon2-$TAG/" -o "silence-yukon2-$TAG.tgz" "$TAG" 
+git archive --prefix="silence-appleyukon2-$TAG/" -o "silence-appleyukon2-$TAG.zip" "$TAG" 
 
