@@ -15,5 +15,4 @@ then
 	echo "Tag '$TAG' doesn't exist" >&2
 	exit 2
 fi
-[ -d "$RELEASES_D" ] || mkdir "$RELEASES_D"
-git archive --prefix="silence-yukon2-$TAG/" -o "$RELEASES_D/silence-yukon2-$TAG.zip" "$TAG" 
+git archive --prefix="silence-appleyukon2-$TAG/" -o "silence-appleyukon2-$TAG.zip" "$TAG" 
